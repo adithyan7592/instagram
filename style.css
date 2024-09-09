@@ -1,0 +1,81 @@
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    padding: 15px;
+}
+.sidebar{
+    background-color: black;
+}
+@font-face {
+    font-family: logo;
+    src: url(./Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf);
+}
+h1{
+    font-family: logo;
+}
+
+.bottom{
+    margin-top: 70px;
+}
+.story{
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.story img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px pink solid;
+}
+.story img:hover{
+    cursor: pointer;
+}
+.container-fluid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 10px;
+    background-color: black;
+}
+.post-info{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+}
+.post-info img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    margin-top: 18px;
+    
+}
+h5{
+    color: white;
+    padding-top: 25px;
+    font-size: 1rem;
+    padding-left: 8px;
+}
+.friend img{
+    margin-top: 10px;
+    width: 740px;
+    margin-left: 130px;
+    border: 2px solid;
+   
+}
+.like{
+    margin-left: 125px;
+}
+.like a{
+    margin-top: 100px;
+    color: white;
+    padding-left: 10px;
+
+}
+h6{
+    color: white;
+    margin-left: 140px;
+}
